@@ -7,8 +7,11 @@ const mainController = {
 
     renderAbout: (req,res) =>{
         res.sendFile(path.resolve(__dirname,'../views/about.html'))
-    }
+    },
 
+    renderPortfolio: (req,res) =>{
+        res.sendFile(path.resolve(__dirname,'../views/portfolio.html'))
+    }
 }
 
 module.exports = mainController;
