@@ -1,6 +1,6 @@
 # Modulo 5 Express
 
-Marcos Quinteos
+# Marcos Quinteros
 
 * Modelo - Vista  - Controlador
 
