@@ -31,7 +31,8 @@ const mainController = {
     },
 
     renderAbout: (req,res) =>{
-        res.sendFile(path.resolve(__dirname,'../views/about.html'))
+       // res.sendFile(path.resolve(__dirname,'../views/about.html'))
+       res.render('detalleMenu',{ title: 'Detalle del Menu',data: arrayPlatos})
     }, 
 
     
